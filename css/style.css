@@ -1,0 +1,308 @@
+html{									/*Setting base styling properties for the html page*/
+	margin: 0 auto;
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	background-color: black;
+}
+
+body{
+	background-color: white;
+	color: black;
+	margin: 0 auto;
+	min-width: 460px;
+	max-width: 570px;
+	font-weight: 400;
+	text-align: center;
+}
+
+main{
+	height: 100vh;
+}
+
+h1{
+	font-size: 3vh;
+	margin: 0 auto;
+	margin-left: 40px;
+	font-weight: 100;
+}
+
+#headbar{
+	background-color: #cf4037;
+}
+
+#headbar{
+	display: flex;
+	margin-top: 0;
+	height: 5vh;
+}
+
+
+#headbar > img{								/*Access img tag inside of tag with id headbar*/
+	display: flex;
+	margin-left: 15px;
+}
+
+.line{
+	margin-top: 8px;
+	padding-left: 15px;
+	height: 60%;
+	width: 1.5px;
+}
+
+
+.topimg2{
+	padding-left: 10px;
+	transform: scale(1.5);					/*Upscaling an image*/
+}
+
+.topimg3{
+	padding-left: 10px;
+	transform: scale(2);
+}
+
+.topimg4{
+	padding-left: 5px;
+	margin-top: 5px;
+	height: 75%;
+}
+
+.topimg5{
+	margin-top: 8px;
+	height: 50%;
+}
+
+#spidey{
+	margin: 0 auto;
+	width: 80%;
+	position: absolute;
+	top: -170px;
+	left: 10%;
+	bottom: 0;
+	transform: scale(0.4);
+}
+
+#web{
+	width: 90%;
+	position: absolute;
+	top: -300px;
+	left: 6%;
+	bottom: 0;
+	transform: scale(0.45);
+	opacity: 0.2;
+}
+
+
+#headlogo{
+	width: 100%;
+	height: auto;
+	margin-top: 0;
+	position: relative;
+	top: 0;
+	left: 0;
+	margin: 0 auto;
+}
+
+	/*Right section of the page*/
+
+.cover-right{
+	position: relative;
+	top: 20px;
+	right: 0;
+	float: right;
+	text-align: right;
+	/*font-style: italic;*/
+	font-weight: 300;
+}
+
+.right{
+	line-height: 1;
+}
+
+.right-div1 > p{						/*Access p tag inside of tag with class right-div1*/
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
+	background-color: #cf4037;
+	color: white;
+	font-size: 50px;	
+	font-weight: 900;
+	padding: 5px;
+	display: inline-block;
+	padding-right: 20px;
+}
+
+.right-div1 > p:last-of-type {			/*Access last p tag of many inside of tag with class right-div1*/
+	top: 8vh;
+}
+
+
+.right-div2 > p{
+	background-color: #0770b2;
+	color: white;
+	margin: 0 auto;
+	margin-top: 65%;
+	display: inline-block;
+	font-size: 35px;
+	padding: 5px;
+	padding-right: 20px;
+}
+
+.right-div3 > p{
+	background-color: #042556;
+	color: white;
+	margin: 0 auto;
+	display: inline-block;
+	font-size: 35px;
+	padding: 5px;
+	padding-right: 20px;
+}
+
+.right-div4 > p{
+	background-color: #0770b2;
+	color: white;
+	margin: 0 auto;
+	display: inline-block;
+	font-size: 35px;
+	padding: 5px;
+	padding-right: 20px;
+}
+
+.right-div5 > p {
+	background-color: #042556;
+	color: white;
+	margin: 0 auto;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	font-size: 35px;
+	padding: 5px;
+	padding-right: 20px;
+}
+
+.right-div5 > p:nth-child(2) {			/*Access second p tag of many inside of tag with class right-div5*/
+	top: 41vh;
+}
+.right-div5 > p:last-of-type{			/*Access last p tag of many inside of tag with class right-div5*/
+	top: 46vh;
+}
+
+.right-div6 > p {
+	margin: 0 auto;
+	background-color: #cf4037;
+	color: white;
+	position: absolute;
+	right: 0;
+	top: 52vh;
+	display: inline-block;
+	font-size: 14px;	
+	padding: 5px;
+	padding-right: 20px;
+}
+
+.right-div6 > p:first-of-type{
+	font-weight: 900;
+}
+
+.right-div6 > p:nth-child(2) {
+	top: 55vh;
+}
+.right-div6 > p:last-of-type{
+	top: 58vh;
+}
+
+	/*end of right side*/
+
+	/*Left section of the page */
+
+.cover-left{
+	position: relative;
+	top: -50px;
+	left: 0;
+	width: 30%;
+	justify-content: center;
+}
+
+.left{
+	padding: 10%;
+	text-align: left;
+	line-height: 1;
+}
+
+hr{
+	background-color: #245b84;
+	width: 20%;
+	height: 5px;
+	margin: 0 auto;
+	margin-left: 10%;
+	border: 0;
+	border-radius: 1px;
+}
+
+.left-div1 > p:first-of-type , .left-div1 > p:last-of-type{			/*Setting common values for p tags inside tag class left-div1 */
+	font-size: 10px;
+	margin: 0 auto;
+}
+
+.left-div1 > p:first-of-type{
+	color: #cf4037;
+	font-weight: 600;
+}
+
+.left-div1 > p:last-of-type{
+	color: #2a3b4e;
+	font-weight: 600;
+}
+
+.left-div1 > p:nth-child(2){
+	font-size: 25px;
+	margin: 0;
+	color: #2a3b4e;
+	font-weight: 600;
+}
+
+.left-div2 > p:first-of-type{
+	font-size: 60px;
+	margin: 0 auto;
+	font-weight: 600;
+	color: #cf4037;
+}
+
+.left-div2 > p{
+	font-size: 15px;
+	margin: 0 auto;
+	color: #cf4037;
+	font-weight: 600;
+}
+
+.left-div3 > p:first-of-type{
+	font-size: 20px;
+	margin: 0 auto;
+	color: #cf4037;
+	font-weight: 600;
+}
+
+.left-div3 > p:last-of-type{
+	font-size: 10px;
+	margin: 0 auto;
+	font-weight: 600;
+}
+
+.left-div4{
+	width: 130%;
+	margin-top: 10%;
+}
+
+.left-div4 > p{
+	font-size: 11px;
+	margin: 0 auto;
+	font-weight: 600;
+}
+
+.left-div4 > p > span{					/*Access span tag inside of p tag which is inside of a tag with class left-div4*/
+	font-size: 11px;
+	font-weight: 900;
+	line-height: 1.2;	
+}
+
+	/*End of left side*/
+
+	/*End of CSS*/
